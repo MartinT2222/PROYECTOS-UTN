@@ -1,5 +1,5 @@
 from Codigo_Espanol import *
-
+from Codigo_Ingles import *
 
 
 idioma= str(input("Elija Idioma Espanol o Ingles : "))
@@ -10,7 +10,7 @@ while (idioma != "espanol") and (idioma != "ingles"):
 if idioma == "espanol":
     codigoEspanol()
 elif idioma == "ingles":
-    numidioma = 2
+    codigoIngles()
 
 
 
